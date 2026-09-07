@@ -2,3 +2,8 @@ def greet(name):
     print(f"Hello, {name}!")    
 
 greet("World")
+
+def add(a, b):
+    return a + b
+
+print(f"ADD: {add(6, 7)}")  # This line will never be executed because it's after the return statement  
