@@ -1,8 +1,10 @@
+"""Greets the user"""
 def greet(name):
     print(f"Hello, {name}!")    
 
 greet("World")
 
+"""Adds a and b and returns a result."""
 def add(a, b):
     return a + b
 
